@@ -1,6 +1,6 @@
 import express from 'express'
-import authors from './endpoints/authors'
-import books from './endpoints/books'
+import authors from './controllers/authors'
+import books from './controllers/books'
 
 const app = express()
 app.use(express.json())
